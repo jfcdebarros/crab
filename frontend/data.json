@@ -1,0 +1,1082 @@
+{
+ "version": "2026-10-28.1",
+ "snapshot": {
+  "label": "Fechamento 20/10/2026",
+  "date": "2026-10-20",
+  "source": "Dados de Mercado (fechamento do último pregão, atualizado 21/10/2026 01:08)",
+  "url": "https://www.dadosdemercado.com.br/acoes"
+ },
+ "params": {
+  "selic": 13.65,
+  "selic_note": "Selic Over ≈ meta 13,75% (Copom 16/09/2026) − 0,10 p.p.",
+  "usdbrl": 5.0134,
+  "usdbrl_note": "PTAX venda 20/10/2026",
+  "usdbrl_url": "https://numerando.com.br/cambio/dolar-americano/2026"
+ },
+ "prices": {
+  "DESK3": 19.38,
+  "FIQE3": 6.25,
+  "HBOR3": 2.65,
+  "HBRE3": 3.4,
+  "SANB11": 27.87,
+  "SANB3": 13.86,
+  "SANB4": 14.02,
+  "EMAE4": 41.95,
+  "SBSP3": 32.54,
+  "YDUQ3": 14.48,
+  "BRKM3": 4.14,
+  "BRKM5": 4.16,
+  "VALE3": 65.44,
+  "BRAP3": 18.25,
+  "BRAP4": 20.05,
+  "ITSA3": 15.83,
+  "ITSA4": 15.8,
+  "ITUB3": 52.81,
+  "ITUB4": 48.8,
+  "GOAU3": 10.64,
+  "GOAU4": 11.93,
+  "GGBR3": 22.48,
+  "GGBR4": 26.25,
+  "PETR3": 64.85,
+  "PETR4": 58.21,
+  "BBDC3": 18.23,
+  "BBDC4": 20.68,
+  "TAEE11": 45.87,
+  "TAEE3": 14.9,
+  "TAEE4": 15.2,
+  "KLBN11": 18.42,
+  "KLBN3": 3.76,
+  "KLBN4": 3.69,
+  "ENGI11": 67.49,
+  "ENGI3": 13.86,
+  "ENGI4": 13.54,
+  "SAPR11": 40.88,
+  "SAPR3": 9.12,
+  "SAPR4": 7.94,
+  "ALUP11": 38.49,
+  "ALUP3": 13.41,
+  "ALUP4": 12.71,
+  "BPAC11": 81.71,
+  "BPAC3": 28.16,
+  "BPAC5": 26.61,
+  "CMIG3": 17.8,
+  "CMIG4": 11.83,
+  "CSAN3": 5.27,
+  "RAIL3": 19.3,
+  "SIMH3": 16.7,
+  "MOVI3": 19.96,
+  "VAMO3": 6.64,
+  "JSLG3": 11.88,
+  "AZZA3": 27.17,
+  "AFYA": 15.1
+ },
+ "price_meta": {
+  "AFYA": {
+   "ccy": "USD",
+   "source": "Stock Analysis, fechamento anterior a 21/10/2026",
+   "url": "https://stockanalysis.com/stocks/AFYA"
+  }
+ },
+ "events": [
+  {
+   "id": "desk3",
+   "title": "Desktop · OPA unificada Claro NXT",
+   "target": "DESK3",
+   "acquirer": "Claro NXT",
+   "kind": "OPA em dinheiro",
+   "model": "cash_selic",
+   "stage": "Registro em análise na CVM",
+   "status": "active",
+   "terms": {
+    "base": 19.1261,
+    "base_date": "2026-10-01",
+    "retained": 1.5051,
+    "nd_adj": 0,
+    "include_retained": true
+   },
+   "clauses": [
+    [
+     "(a) Preço de fechamento",
+     "R$ 19,1261 por ação, corrigido pela Taxa Selic a partir de 01/10/2026"
+    ],
+    [
+     "(b) Ajuste de endividamento líquido",
+     "Apuração definitiva da dívida líquida em 30/09/2026; valor não divulgado"
+    ],
+    [
+     "(c) Parcela retida",
+     "R$ 1,5051 por ação; garante indenizações dos vendedores; pagamento conforme o edital (vendedores: liberação mensal em ~5 anos)"
+    ],
+    [
+     "Laudo",
+     "Dispensado: preço igual ao da alienação de controle"
+    ],
+    [
+     "Opção da Claro",
+     "Pode desistir da conversão A→B e da saída do Novo Mercado e manter só o tag along"
+    ]
+   ],
+   "catalysts": [
+    [
+     "2026-11-11",
+     "Resultado 3T26 da Desktop"
+    ],
+    [
+     "",
+     "Concessão do registro e edital da OPA (data a definir)"
+    ]
+   ],
+   "risks": [
+    "Cronograma e correção da parcela retida ainda não definidos",
+    "Ajuste de dívida líquida pode ser negativo",
+    "Prazo de liquidação desconhecido (o preço caixa corre com a Selic)"
+   ],
+   "sources": [
+    [
+     "Fato Relevante e notificação Claro NXT (05/10/2026)",
+     "https://a.storyblok.com/f/238969/x/93f7f1500d/claro_participacoes_fato_relevante_e_notificacao_claro_nxt.pdf"
+    ],
+    [
+     "Visno: pedido de OPA unificada",
+     "https://visnoinvest.com.br/news/15548/desktop-desk3-registra-pedido-de-opa-unificada-a-r-1913"
+    ]
+   ]
+  },
+  {
+   "id": "emae",
+   "title": "EMAE · incorporação de ações pela Sabesp",
+   "target": "EMAE4",
+   "acquirer": "SBSP3",
+   "kind": "Incorporação · relação fixa",
+   "model": "ratio",
+   "stage": "Aprovada · último pregão 23/10",
+   "status": "active",
+   "terms": {
+    "ratio": 1.3195
+   },
+   "clauses": [
+    [
+     "Relação de troca",
+     "1,3195 ação ordinária da Sabesp por ação ON ou PN da EMAE"
+    ],
+    [
+     "Direito de retirada",
+     "R$ 18,18 por ação; prazo encerrado em 19/10 sem nenhum exercício"
+    ],
+    [
+     "Frações",
+     "Agrupadas e vendidas em leilão na B3, pago em dinheiro"
+    ],
+    [
+     "Cronograma",
+     "Último pregão da EMAE em 23/10/2026; crédito das ações Sabesp em 27/10/2026"
+    ]
+   ],
+   "catalysts": [
+    [
+     "2026-10-23",
+     "Último dia de negociação da EMAE"
+    ],
+    [
+     "2026-10-27",
+     "Eficácia da incorporação e crédito de SBSP3"
+    ]
+   ],
+   "risks": [
+    "Exige aluguel de SBSP3 para travar o spread",
+    "Liquidez baixa de EMAE4",
+    "Frações liquidadas em dinheiro"
+   ],
+   "sources": [
+    [
+     "Atlas Público: nenhum exercício de retirada (20/10/2026)",
+     "https://atlaspublico.com.br/cvm/noticias"
+    ],
+    [
+     "Cronograma atualizado da incorporação",
+     "https://www.analisedeacoes.com/noticias/sabesp-sbsp3-e-emae-atualizam-prazos-de-incorporacao-de-acoes/"
+    ]
+   ],
+   "deadline": "2026-10-27"
+  },
+  {
+   "id": "hbor",
+   "title": "Helbor · OPA de permuta HBR Realty",
+   "target": "HBOR3",
+   "acquirer": "HBRE3",
+   "kind": "OPA de permuta · relação fixa",
+   "model": "ratio",
+   "stage": "Registrada · leilão 28/10 15h",
+   "status": "active",
+   "terms": {
+    "ratio": 0.81553398
+   },
+   "clauses": [
+    [
+     "Contraprestação",
+     "0,81553398 ação HBRE3 por ação HBOR3 (referência R$ 2,52)"
+    ],
+    [
+     "Condições",
+     "Adesão de mais de 2/3 das ações habilitadas e aquisição de ao menos 50,1% do capital votante; se falhar, a oferta cai"
+    ],
+    [
+     "Apoio",
+     "Controladores comprometidos a vender; conselho da Helbor deu parecer favorável em 20/10"
+    ],
+    [
+     "Objetivo",
+     "Controle e cancelamento de registro, com saída do Novo Mercado"
+    ]
+   ],
+   "catalysts": [
+    [
+     "2026-10-28",
+     "Leilão na B3 às 15h"
+    ]
+   ],
+   "risks": [
+    "Condição binária de adesão",
+    "Short de HBRE3 pode estar caro ou indisponível",
+    "HBOR3 caiu cerca de 20% no anúncio: queda forte se a oferta falhar"
+   ],
+   "sources": [
+    [
+     "InvestNews: aval da CVM e leilão",
+     "https://investnews.com.br/negocios/hbr-lanca-oferta-para-adquirir-controle-e-tirar-incorporadora-helbor-da-bolsa/amp/"
+    ],
+    [
+     "Resumo do edital (B3)",
+     "https://b3.com.br/data/files/28/76/70/9C/C6531A103BBB511AAC094EA8/Resumo%20Edital%20OPA%20Helbor%20-%20vf.pdf"
+    ],
+    [
+     "Atlas Público: parecer do conselho (20/10)",
+     "https://atlaspublico.com.br/cvm/noticias"
+    ]
+   ],
+   "deadline": "2026-10-28"
+  },
+  {
+   "id": "yduq",
+   "title": "Yduqs · incorporação da Afya",
+   "target": "AFYA",
+   "acquirer": "YDUQ3",
+   "kind": "Incorporação cross-border · relação fixa",
+   "model": "ratio_fx",
+   "stage": "Assinada · CADE e assembleias",
+   "status": "active",
+   "terms": {
+    "ratio": 6.408347,
+    "acq_div": 2.94,
+    "target_div": 0
+   },
+   "clauses": [
+    [
+     "Relação de troca",
+     "6,408347 ações YDUQ3 por ação da Afya"
+    ],
+    [
+     "Distribuições",
+     "Yduqs pode distribuir R$ 750 mi (≈ R$ 2,94/ação) até o fechamento; se gerar menos caixa, a distribuição da Afya aumenta para manter a relação"
+    ],
+    [
+     "Locked box",
+     "30/06/2026; sem ajuste por dívida, EBITDA ou cotação"
+    ],
+    [
+     "Prazo limite",
+     "31/03/2028, sujeito a prorrogação"
+    ]
+   ],
+   "catalysts": [
+    [
+     "",
+     "Assembleias de Yduqs e Afya"
+    ],
+    [
+     "",
+     "Aprovação do CADE"
+    ],
+    [
+     "2028-03-31",
+     "Data limite para conclusão"
+    ]
+   ],
+   "risks": [
+    "Aluguel de YDUQ3 chegou a 40% a.a.",
+    "Prazo longo e risco antitruste",
+    "Distribuições e câmbio alteram a paridade"
+   ],
+   "sources": [
+    [
+     "Visno: termos da fusão",
+     "https://visnoinvest.com.br/news/15399/yduqs-yduq3-anuncia-fusao-com-afya-e-troca-de-64-acoes"
+    ],
+    [
+     "TradeMap: dividendos e aluguel",
+     "https://trademap.com.br/noticias/news-8346638"
+    ]
+   ]
+  },
+  {
+   "id": "sanb",
+   "title": "Santander Brasil · OPA voluntária de permuta",
+   "target": "SANB11",
+   "acquirer": "SAN",
+   "kind": "OPA de permuta cross-border",
+   "model": "ratio_fx_input",
+   "stage": "Protocolada na CVM e SEC · 1S27",
+   "status": "active",
+   "terms": {
+    "ratio": 0.4056,
+    "foreign": "SAN (NYSE, USD)"
+   },
+   "clauses": [
+    [
+     "Relação de troca",
+     "0,4056 BDR/ADS do Banco Santander por unit SANB11; 0,2028 por ação ON ou PN"
+    ],
+    [
+     "Aceitação mínima",
+     "Não há; o Santander Brasil continua listado"
+    ],
+    [
+     "Ajustes",
+     "Por dividendos, JCP, bonificações e desdobramentos; não por recompras"
+    ]
+   ],
+   "catalysts": [
+    [
+     "",
+     "Registro do programa de BDR e da oferta"
+    ],
+    [
+     "",
+     "Liquidação estimada no 1S27"
+    ]
+   ],
+   "risks": [
+    "Exposição a SAN e ao câmbio até a liquidação",
+    "Prazo longo",
+    "Liquidez de SANB11 deve cair após a oferta"
+   ],
+   "sources": [
+    [
+     "Visno: termos da oferta",
+     "https://visnoinvest.com.br/news/14466/banco-santander-anuncia-opa-de-permuta-por-acoes-do-santander-brasil-sanb11"
+    ]
+   ]
+  },
+  {
+   "id": "fiqe",
+   "title": "Unifique · OPA para fechamento de capital",
+   "target": "FIQE3",
+   "acquirer": "Unitá",
+   "kind": "OPA em dinheiro · voluntária",
+   "model": "cash_fixed",
+   "stage": "Registro suspenso · assembleia especial",
+   "status": "active",
+   "terms": {
+    "offer": 6.0
+   },
+   "clauses": [
+    [
+     "Preço",
+     "R$ 6,00 por ação; laudo Apsis de R$ 5,42 (VWAP)"
+    ],
+    [
+     "Revisão de preço",
+     "Acionistas com mais de 10% do free float pediram assembleia especial (art. 4-A) em 15/10"
+    ],
+    [
+     "Situação",
+     "Registro suspenso na CVM desde 16/10; conselho delibera a convocação"
+    ]
+   ],
+   "catalysts": [
+    [
+     "2026-10-23",
+     "Prazo de 8 dias para o conselho convocar a assembleia especial"
+    ],
+    [
+     "2026-11-11",
+     "Resultado 3T26"
+    ]
+   ],
+   "risks": [
+    "Ação já negocia acima da oferta: o mercado precifica revisão",
+    "OPA voluntária: o controlador pode desistir"
+   ],
+   "sources": [
+    [
+     "Atlas Público: OPA suspensa",
+     "https://atlaspublico.com.br/cvm/noticias/unifique-telecomunicacoes-tem-processo-de-opa-suspenso-apos-92884"
+    ],
+    [
+     "Teletime",
+     "https://teletime.com.br/16/10/2026/unifique-suspende-opa/"
+    ]
+   ]
+  },
+  {
+   "id": "brkm",
+   "title": "Braskem · janela de ações remanescentes",
+   "target": "BRKM3",
+   "acquirer": "Shine I FIP",
+   "kind": "OPA paga em debêntures",
+   "model": "debenture",
+   "stage": "Janela aberta até 16/11",
+   "status": "active",
+   "terms": {
+    "units": 3,
+    "vna": 3.08,
+    "pct_par": null
+   },
+   "clauses": [
+    [
+     "Contraprestação",
+     "2 debêntures OSPI12 + 1 OSPI22 da NSP Investimentos por ação BRKM3"
+    ],
+    [
+     "Valor nominal",
+     "R$ 3,08 por debênture (atualizado, conforme o edital)"
+    ],
+    [
+     "Janela",
+     "Ações ON remanescentes podem ser entregues até 16/11/2026 nas mesmas condições"
+    ]
+   ],
+   "catalysts": [
+    [
+     "2026-10-21",
+     "Liquidação do leilão"
+    ],
+    [
+     "2026-11-16",
+     "Fim da janela para BRKM3"
+    ]
+   ],
+   "risks": [
+    "Valor justo das debêntures NSP desconhecido; o valor nominal não é preço de mercado",
+    "Liquidez das debêntures"
+   ],
+   "sources": [
+    [
+     "Braskem: R$ 100 mil em BRKM3 viram debêntures",
+     "https://investirecocaresocomecar.com.br/braskem-opa-brkm3-debentures/"
+    ],
+    [
+     "Times Brasil: resultado do leilão",
+     "https://timesbrasil.com.br/empresas-e-negocios/braskem-shine-compra-quase-20-mil-acoes-em-leilao-de-opa/"
+    ]
+   ],
+   "deadline": "2026-11-16"
+  },
+  {
+   "id": "azza",
+   "title": "Azzas 2154 · cisão em Arezzo&Co e SOMA",
+   "target": "AZZA3",
+   "acquirer": "—",
+   "kind": "Cisão",
+   "model": "watch",
+   "stage": "CADE aprovou em 15/10 · relações de troca pendentes",
+   "status": "watch",
+   "terms": {},
+   "clauses": [
+    [
+     "Estrutura",
+     "Cisão parcial e permuta entre os blocos; acionistas recebem ações das duas companhias na proporção atual"
+    ],
+    [
+     "FARM",
+     "57,4% Arezzo&Co e 42,6% SOMA"
+    ],
+    [
+     "Pendências",
+     "AGE, listagem da SOMA no Novo Mercado, protocolo e relações de substituição"
+    ]
+   ],
+   "catalysts": [
+    [
+     "",
+     "Divulgação das relações de troca e convocação da AGE"
+    ]
+   ],
+   "risks": [
+    "Sem relações de troca não há paridade calculável"
+   ],
+   "sources": [
+    [
+     "Renova Invest: mecânica da cisão",
+     "https://renovainvest.com.br/?p=105501"
+    ]
+   ]
+  },
+  {
+   "id": "arnd",
+   "title": "Arandu · OPA para saída do Novo Mercado",
+   "target": "ARND3",
+   "acquirer": "Arandu Partners",
+   "kind": "OPA em dinheiro",
+   "model": "watch",
+   "stage": "Registro deferido em 05/10 · leilão a definir",
+   "status": "watch",
+   "terms": {
+    "offer": 0.67
+   },
+   "clauses": [
+    [
+     "Preço",
+     "R$ 0,67 por ação à vista, corrigido pela Selic até a liquidação; laudo de R$ 0,60"
+    ],
+    [
+     "Ofertante",
+     "Arandu Partners Holding, com cerca de 87% do capital"
+    ]
+   ],
+   "catalysts": [
+    [
+     "2026-12-31",
+     "Prazo para recompor o free float"
+    ]
+   ],
+   "risks": [
+    "Papel muito ilíquido; sem cotação confiável no snapshot"
+   ],
+   "sources": [
+    [
+     "Renova Invest: preço da OPA",
+     "https://renovainvest.com.br/?p=104941"
+    ]
+   ]
+  }
+ ],
+ "holdings": [
+  {
+   "id": "brap",
+   "name": "Bradespar",
+   "classes": [
+    [
+     "BRAP3",
+     137989898
+    ],
+    [
+     "BRAP4",
+     255106712
+    ]
+   ],
+   "quote": "BRAP4",
+   "positions": [
+    {
+     "ticker": "VALE3",
+     "shares": 163394109,
+     "label": "Vale",
+     "note": "3,83% de Vale; quantidade derivada de R$ 11,65 bi ÷ R$ 71,30 (14/08/2026)"
+    }
+   ],
+   "others": 0,
+   "net_cash": 513330000,
+   "net_cash_note": "Caixa líquido em 15/10/2026",
+   "refs": [
+    [
+     "2026-08-14",
+     36.0
+    ],
+    [
+     "2026-10-15",
+     33.2
+    ]
+   ],
+   "sources": [
+    [
+     "Visno: desconto de 33,2% (15/10)",
+     "https://visnoinvest.com/news/15749/bradespar-brap4-posts-33-discount-to-asset-value"
+    ],
+    [
+     "Economic News Brasil: 3,83% de Vale",
+     "https://economicnewsbrasil.com.br/2026/08/17/desconto-da-bradespar-ativos-vale/"
+    ]
+   ]
+  },
+  {
+   "id": "itsa",
+   "name": "Itaúsa",
+   "classes": [
+    [
+     "ITSA3",
+     3853634012
+    ],
+    [
+     "ITSA4",
+     7360052833
+    ]
+   ],
+   "quote": "ITSA4",
+   "positions": [
+    {
+     "ticker": "ITUB4",
+     "shares": 4135075947,
+     "label": "Itaú Unibanco",
+     "note": "37,5% de 11.026.869.192 ações (posição de 30/06/2026), avaliada a ITUB4"
+    }
+   ],
+   "others": 17800000000,
+   "others_note": "Copa, Dexco, Alpargatas, Aegea, Motiva e NTS em 31/08/2026",
+   "net_cash": -1200000000,
+   "net_cash_note": "Outros passivos da holding",
+   "refs": [
+    [
+     "2026-06-30",
+     20.8
+    ],
+    [
+     "2026-08-31",
+     18.4
+    ]
+   ],
+   "sources": [
+    [
+     "Participações e soma das partes (31/08)",
+     "https://investirecocaresocomecar.com.br/quem-a-itausa-controla-conheca-suas-empresas/"
+    ],
+    [
+     "Número de ações da Itaúsa",
+     "https://statusinvest.com.br/acoes/itsa4"
+    ],
+    [
+     "Número de ações do Itaú",
+     "https://statusinvest.com.br/acoes/itub4"
+    ]
+   ]
+  },
+  {
+   "id": "goau",
+   "name": "Metalúrgica Gerdau",
+   "classes": [
+    [
+     "GOAU3",
+     486802764
+    ],
+    [
+     "GOAU4",
+     835885284
+    ]
+   ],
+   "quote": "GOAU4",
+   "positions": [
+    {
+     "ticker": "GGBR4",
+     "alt": "GGBR3",
+     "shares": 702950000,
+     "label": "Gerdau",
+     "note": "702,95 mi ações ON (35,54% do capital, 31/08/2026); avaliada a GGBR4, alternativa GGBR3"
+    }
+   ],
+   "others": 0,
+   "net_cash": 0,
+   "net_cash_note": "Caixa líquido da holding não informado: considerado zero",
+   "refs": [],
+   "sources": [
+    [
+     "Participação e método",
+     "https://investirecocaresocomecar.com.br/ggbr4-ou-goau4/"
+    ],
+    [
+     "Número de ações",
+     "https://statusinvest.com.br/acoes/goau4"
+    ]
+   ]
+  }
+ ],
+ "holdings_watch": [
+  [
+   "Simpar",
+   "SIMH3",
+   "MOVI3, VAMO3, JSLG3 + controladas fechadas",
+   "Participações atualizadas e dívida da holding pendentes"
+  ],
+  [
+   "Cosan",
+   "CSAN3",
+   "RAIL3, Moove, Compass, Radar, Raízen (em recuperação)",
+   "Estrutura em reorganização; dívida da holding pendente"
+  ]
+ ],
+ "classes": [
+  {
+   "on": "PETR3",
+   "pn": "PETR4",
+   "name": "Petrobras",
+   "note": "PN com prioridade no dividendo; ON com voto e tag along 100%"
+  },
+  {
+   "on": "ITUB3",
+   "pn": "ITUB4",
+   "name": "Itaú Unibanco",
+   "note": "ON pouco líquida (8% em circulação)"
+  },
+  {
+   "on": "BBDC3",
+   "pn": "BBDC4",
+   "name": "Bradesco",
+   "note": "PN recebe 10% a mais de dividendo"
+  },
+  {
+   "on": "GGBR3",
+   "pn": "GGBR4",
+   "name": "Gerdau",
+   "note": "98% das ON com a Metalúrgica Gerdau"
+  },
+  {
+   "on": "GOAU3",
+   "pn": "GOAU4",
+   "name": "Metalúrgica Gerdau",
+   "note": ""
+  },
+  {
+   "on": "BRAP3",
+   "pn": "BRAP4",
+   "name": "Bradespar",
+   "note": ""
+  },
+  {
+   "on": "ITSA3",
+   "pn": "ITSA4",
+   "name": "Itaúsa",
+   "note": ""
+  },
+  {
+   "on": "SANB3",
+   "pn": "SANB4",
+   "name": "Santander Brasil",
+   "note": "Ambas entram na permuta a 0,2028"
+  },
+  {
+   "on": "CMIG3",
+   "pn": "CMIG4",
+   "name": "Cemig",
+   "note": "PN com dividendo mínimo estatutário"
+  }
+ ],
+ "units": [
+  {
+   "unit": "TAEE11",
+   "on": "TAEE3",
+   "pn": "TAEE4",
+   "n_on": 1,
+   "n_pn": 2,
+   "name": "Taesa"
+  },
+  {
+   "unit": "KLBN11",
+   "on": "KLBN3",
+   "pn": "KLBN4",
+   "n_on": 1,
+   "n_pn": 4,
+   "name": "Klabin"
+  },
+  {
+   "unit": "ENGI11",
+   "on": "ENGI3",
+   "pn": "ENGI4",
+   "n_on": 1,
+   "n_pn": 4,
+   "name": "Energisa"
+  },
+  {
+   "unit": "SAPR11",
+   "on": "SAPR3",
+   "pn": "SAPR4",
+   "n_on": 1,
+   "n_pn": 4,
+   "name": "Sanepar"
+  },
+  {
+   "unit": "ALUP11",
+   "on": "ALUP3",
+   "pn": "ALUP4",
+   "n_on": 1,
+   "n_pn": 2,
+   "name": "Alupar"
+  },
+  {
+   "unit": "BPAC11",
+   "on": "BPAC3",
+   "pn": "BPAC5",
+   "n_on": 1,
+   "n_pn": 2,
+   "name": "BTG Pactual"
+  },
+  {
+   "unit": "SANB11",
+   "on": "SANB3",
+   "pn": "SANB4",
+   "n_on": 1,
+   "n_pn": 1,
+   "name": "Santander Brasil"
+  }
+ ],
+ "adrs": [
+  {
+   "adr": "PBR",
+   "local": "PETR3",
+   "ratio": 2,
+   "name": "Petrobras ON"
+  },
+  {
+   "adr": "PBR.A",
+   "local": "PETR4",
+   "ratio": 2,
+   "name": "Petrobras PN"
+  },
+  {
+   "adr": "VALE",
+   "local": "VALE3",
+   "ratio": 1,
+   "name": "Vale"
+  },
+  {
+   "adr": "ITUB",
+   "local": "ITUB4",
+   "ratio": 1,
+   "name": "Itaú Unibanco"
+  },
+  {
+   "adr": "BBD",
+   "local": "BBDC4",
+   "ratio": 1,
+   "name": "Bradesco PN"
+  },
+  {
+   "adr": "BBDO",
+   "local": "BBDC3",
+   "ratio": 1,
+   "name": "Bradesco ON"
+  },
+  {
+   "adr": "SBS",
+   "local": "SBSP3",
+   "ratio": 1,
+   "name": "Sabesp"
+  },
+  {
+   "adr": "GGB",
+   "local": "GGBR4",
+   "ratio": 1,
+   "name": "Gerdau"
+  },
+  {
+   "adr": "CIG",
+   "local": "CMIG4",
+   "ratio": 1,
+   "name": "Cemig"
+  },
+  {
+   "adr": "BSBR",
+   "local": "SANB11",
+   "ratio": 1,
+   "name": "Santander Brasil"
+  }
+ ],
+ "calendar": [
+  [
+   "2026-10-23",
+   "EMAE4",
+   "Último pregão da EMAE antes da incorporação",
+   "events"
+  ],
+  [
+   "2026-10-23",
+   "FIQE3",
+   "Prazo do conselho para convocar a assembleia especial",
+   "events"
+  ],
+  [
+   "2026-10-26",
+   "DXCO3",
+   "AGE da Dexco: incorporação de ativos da Duratex Florestal",
+   "watch"
+  ],
+  [
+   "2026-10-27",
+   "SBSP3",
+   "Crédito das ações Sabesp aos ex-acionistas da EMAE",
+   "events"
+  ],
+  [
+   "2026-10-28",
+   "HBOR3",
+   "Leilão da OPA de permuta da Helbor, 15h",
+   "events"
+  ],
+  [
+   "2026-11-04",
+   "Copom",
+   "Decisão da Selic (afeta a correção da OPA DESK3)",
+   "macro"
+  ],
+  [
+   "2026-11-11",
+   "DESK3",
+   "Resultado 3T26 da Desktop",
+   "events"
+  ],
+  [
+   "2026-11-11",
+   "FIQE3",
+   "Resultado 3T26 da Unifique",
+   "events"
+  ],
+  [
+   "2026-11-16",
+   "BRKM3",
+   "Fim da janela de ações remanescentes da Braskem",
+   "events"
+  ],
+  [
+   "2026-12-31",
+   "ARND3",
+   "Prazo para a Arandu recompor o free float",
+   "events"
+  ],
+  [
+   "2028-03-31",
+   "YDUQ3",
+   "Data limite da fusão Yduqs/Afya",
+   "events"
+  ]
+ ],
+ "user_name": "Mingo",
+ "documents": [
+  {
+   "id": "doc-desk3-fr-20261005",
+   "name": "026026000101011_2.pdf",
+   "received": "2026-10-05",
+   "pages": 8,
+   "sha256": "cd185bf186eba9d7182ff794e148bbf6c0f3aed62b8e3d17d3240a187823802f",
+   "link": "https://a.storyblok.com/f/238969/x/93f7f1500d/claro_participacoes_fato_relevante_e_notificacao_claro_nxt.pdf",
+   "status": "live",
+   "approved": "2026-10-05",
+   "approved_by": "base inicial · conferido pela mesa",
+   "result": {
+    "doc": {
+     "type": "fato_relevante",
+     "issuer": "Desktop S.A.",
+     "tickers": [
+      "DESK3"
+     ],
+     "date": "2026-10-05",
+     "title": "Fato Relevante: protocolo da OPA unificada pela Claro NXT",
+     "summary": "A Claro NXT protocolou na CVM, em 02/10/2026, o pedido de registro de uma OPA unificada (alienação de controle, conversão para categoria B e saída do Novo Mercado). O preço por ação é o mesmo pago aos vendedores do controle: R$ 19,1261 corrigido pela Selic desde 01/10/2026, mais um ajuste de dívida líquida ainda não apurado, mais a parcela retida de R$ 1,5051."
+    },
+    "action": "update_deal",
+    "deal_id": "desk3",
+    "deal": {
+     "title": "Desktop · OPA unificada Claro NXT",
+     "target": "DESK3",
+     "acquirer": "Claro NXT",
+     "kind": "OPA em dinheiro",
+     "stage": "Registro em análise na CVM",
+     "deadline": null
+    },
+    "model": "cash_selic",
+    "model_reason": "Pagamento em dinheiro: preço-base fixo corrigido pela Selic desde a data de fechamento, somado a um ajuste de dívida e a uma parcela retida paga a quem aderir. É o modelo de OPA em dinheiro com correção pela Selic.",
+    "params": [
+     {
+      "key": "base",
+      "value": 19.1261,
+      "status": "confirmado",
+      "page": 4,
+      "quote": "de R$ 19,1261 por ação da Companhia, a ser corrigido pela Taxa Selic a partir da Data de Fechamento",
+      "note": "",
+      "quote_found": true
+     },
+     {
+      "key": "base_date",
+      "value": "2026-10-01",
+      "status": "confirmado",
+      "page": 3,
+      "quote": "aquisição de controle ocorrido em 1º de outubro de 2026",
+      "note": "Data de Fechamento, a partir da qual corre a Selic",
+      "quote_found": true
+     },
+     {
+      "key": "nd_adj",
+      "value": null,
+      "status": "nao_informado",
+      "page": 4,
+      "quote": "apuração definitiva do endividamento líquido da Companhia, que terá como data base o dia 30 de setembro de 2026",
+      "note": "Valor não divulgado; o cálculo usa 0 até o edital",
+      "quote_found": true
+     },
+     {
+      "key": "retained",
+      "value": 1.5051,
+      "status": "confirmado",
+      "page": 4,
+      "quote": "O montante de R$ 1,5051 por ação da Companhia",
+      "note": "",
+      "quote_found": true
+     },
+     {
+      "key": "include_retained",
+      "value": true,
+      "status": "confirmado",
+      "page": 4,
+      "quote": "o qual será pago aos acionistas que aceitarem a OPA Unificada",
+      "note": "Datas de pagamento definidas só no edital",
+      "quote_found": true
+     }
+    ],
+    "clauses": [
+     [
+      "(a) Preço de fechamento",
+      "R$ 19,1261 por ação, corrigido pela Taxa Selic a partir de 01/10/2026"
+     ],
+     [
+      "(b) Ajuste de endividamento líquido",
+      "Apuração definitiva da dívida líquida em 30/09/2026; valor não divulgado"
+     ],
+     [
+      "(c) Parcela retida",
+      "R$ 1,5051 por ação; garante indenizações dos vendedores; paga a quem aderir, nas datas do edital"
+     ],
+     [
+      "Laudo",
+      "Dispensado (art. 21, I, Res. CVM 215): preço igual ao da alienação de controle"
+     ],
+     [
+      "Opção da Claro",
+      "Pode desistir da conversão A→B e da saída do Novo Mercado e manter só o tag along"
+     ]
+    ],
+    "catalysts": [
+     [
+      "2026-10-18",
+      "Fim do prazo de 15 dias para pedido de revisão do preço por 10% das ações em circulação (calculado a partir de 03/10)"
+     ],
+     [
+      "",
+      "Registro da OPA na CVM e publicação do edital"
+     ]
+    ],
+    "risks": [
+     "Ajuste de dívida líquida pode ser negativo",
+     "Prazo de liquidação desconhecido",
+     "Cronograma da parcela retida definido só no edital"
+    ],
+    "missing": [
+     "Valor do ajuste de dívida líquida (b)",
+     "Data do leilão e da liquidação",
+     "Cronograma e correção da parcela retida (c)"
+    ],
+    "ambiguities": [
+     {
+      "issue": "Quando a parcela retida (c) será paga a quem aderir",
+      "impact": "Se seguir o cronograma dos vendedores (liberação mensal em cerca de 5 anos), vale perto de R$ 1,09 a valor presente em vez de R$ 1,51: cerca de −2,1 p.p. no spread"
+     }
+    ]
+   }
+  }
+ ]
+}
